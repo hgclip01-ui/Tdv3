@@ -1,0 +1,21 @@
+:root{
+  --bg1:#071b2e;
+  --accent:#8be9fd;
+  --panel:#0b7285;
+  --muted:#9fb3c8;
+}
+*{box-sizing:border-box;font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
+html,body{height:100%;margin:0;background:linear-gradient(180deg,#071b2e 0,#0b2f47 100%);color:#e6f7ff}
+.screen{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;padding:12px}
+.card{background:rgba(255,255,255,0.04);padding:18px;border-radius:12px;backdrop-filter:blur(6px);text-align:center}
+.btn{background:var(--panel);color:white;padding:10px 14px;border-radius:10px;border:0;cursor:pointer}
+.topbar{display:flex;gap:12px;align-items:center;background:rgba(255,255,255,0.03);padding:10px;border-radius:10px;margin-bottom:10px}
+canvas{border-radius:10px;background:#023e2f;max-width:100%;height:auto;display:block;margin:auto;border:4px solid rgba(255,255,255,0.03)}
+.sidebar{background:rgba(255,255,255,0.03);padding:10px;border-radius:10px;margin-top:10px;display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.tower-btn{background:rgba(255,255,255,0.04);padding:8px;border-radius:8px;cursor:pointer;color:var(--muted);display:flex;align-items:center;gap:8px}
+.tower-btn.selected{outline:3px solid rgba(139,233,253,0.12);color:white}
+.notice{position:fixed;left:12px;bottom:12px;background:rgba(0,0,0,0.5);padding:8px;border-radius:8px;color:#fff;font-size:12px}
+img.asset{width:40px;height:40px;object-fit:contain}
+.brand{display:flex;align-items:center;gap:10px;justify-content:center;margin-bottom:8px}
+.brand img{height:48px}
+footer{position:fixed;right:12px;bottom:12px;color:var(--muted);font-size:12px}

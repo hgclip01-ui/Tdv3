@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QorGeniusOS — Tower Defense</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="brand card">
+    <img src="assets/logo.png" alt="QorGeniusOS logo" />
+    <div style="font-weight:700;color:var(--accent)">Protect the Future — QorGeniusOS</div>
+  </div>
+
+  <section id="homeScreen" class="screen">
+    <div class="card">
+      <h1>QorGeniusOS — Tower Defense</h1>
+      <p>Defend QorGenius network from digital threats. Place towers that represent features of QorGeniusOS.</p>
+      <button id="startBtn" class="btn">Start Game</button>
+    </div>
+  </section>
+
+  <section id="gameScreen" class="screen hidden" style="flex-direction:column;display:none">
+    <div class="topbar">
+      <div>Gold: <span id="gold">150</span></div>
+      <div>Lives: <span id="lives">10</span></div>
+      <div>Wave: <span id="wave">0</span></div>
+    </div>
+
+    <canvas id="gameCanvas" width="1200" height="832"></canvas>
+    <div class="sidebar" id="towerList"></div>
+    <div class="notice">Tip: pilih tower lalu klik slot putih untuk pasang. Gunakan ini untuk promosi QorGeniusOS.</div>
+  </section>
+
+  <script src="game.js"></script>
+</body>
+</html>
