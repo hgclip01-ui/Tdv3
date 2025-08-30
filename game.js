@@ -17,13 +17,14 @@ const MAP_SIZE={w:2496,h:1728};
 const MAP_TILES={cols:13,rows:9};
 const placementTilesData=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,9,9,0,0,0,9,0,0,0,0,0,9,0,9,0,0,9,9,0,0,0,0,0,9,0,0,0,9,0,0,0,0,0,0,9,9,0,0,9,0,9,0,0,0,0,0,0,0,0,0,0,9,0,0,0,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 const rawWaypoints = [
-  {"x": 575, "y": 760},   // start paling bawah
-  {"x": 575, "y": 500},   // lurus naik
-  {"x": 575, "y": 300},   // terus naik
-  {"x": 700, "y": 250},   // belok kanan
-  {"x": 820, "y": 180},   // serong kanan atas
-  {"x": 1100, "y": 180},  // lurus kanan atas
-  {"x": 1140, "y": 180}   // finish ujung kanan atas
+  {"x": 580, "y": 760},  // start bawah
+  {"x": 580, "y": 520},  // naik lurus
+  {"x": 580, "y": 350},  // naik lagi
+  {"x": 520, "y": 350},  // belok kiri pendek
+  {"x": 520, "y": 250},  // naik sedikit lagi
+  {"x": 640, "y": 200},  // belok kanan miring
+  {"x": 1120, "y": 200}, // lurus panjang kanan
+  {"x": 1150, "y": 200}  // finish kanan atas
 ];
 
 
